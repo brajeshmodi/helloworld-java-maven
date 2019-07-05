@@ -39,7 +39,7 @@
 	</build>
   
 <distributionManagement>
-    epository>
+    <repository>
         <id>deployment</id>
         <name>release </name>
         <url>http://localhost:8081/nexus/content/repositories/MPS/</url>
@@ -50,11 +50,4 @@
         <url>http://localhost:8081/nexus/content/repositories/mps-snap/</url>
     </snapshotRepository>
 </distributionManagement>
-
-
-
-
-
-
-
 </project>
