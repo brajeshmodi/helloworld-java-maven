@@ -39,15 +39,15 @@
 	</build>
   
 <distributionManagement>
-    <repository>
-        <id>sym</id>
-        <name>release softx</name>
-        <url>http://52.66.196.78:8081/repository/all/</url>
+    epository>
+        <id>deployment</id>
+        <name>release </name>
+        <url>http://localhost:8081/nexus/content/repositories/MPS/</url>
     </repository>
     <snapshotRepository>
-        <id>sym</id>
-        <name>snapshot softx</name>
-        <url>http://52.66.196.78:8081/repository/all/</url>
+        <id>deployment</id>
+        <name>snapshot </name>
+        <url>http://localhost:8081/nexus/content/repositories/mps-snap/</url>
     </snapshotRepository>
 </distributionManagement>
 
